@@ -21,6 +21,7 @@
   <string-array name="pref_theme_entries">
     <item>@string/pref_theme_e_system</item>
     <item>@string/pref_theme_e_dark</item>
+    <item>@string/pref_theme_e_darkfortransparent</item>
     <item>@string/pref_theme_e_light</item>
     <item>@string/pref_theme_e_black</item>
     <item>@string/pref_theme_e_altblack</item>
@@ -36,6 +37,7 @@
   <string-array name="pref_theme_values">
     <item>system</item>
     <item>dark</item>
+    <item>darkfortransparent</item>
     <item>light</item>
     <item>black</item>
     <item>altblack</item>

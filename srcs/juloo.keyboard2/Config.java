@@ -223,6 +223,7 @@ public final class Config
       case "light": return R.style.Light;
       case "black": return R.style.Black;
       case "altblack": return R.style.AltBlack;
+      case "darkfortransparent": return R.style.DarkForTransparent;
       case "dark": return R.style.Dark;
       case "white": return R.style.White;
       case "epaper": return R.style.ePaper;

@@ -64,6 +64,10 @@
     <item name="emoji_button_bg" type="color">#202020</item>
     <item name="emoji_color" type="color">#ffffff</item>
   </style>
+  <style name="DarkForTransparent" parent="@style/Dark">
+    <item name="colorKey">#ffffff</item>
+    <item name="colorKeyActivated">#000000</item>
+  </style>
   <style name="Light" parent="BaseTheme">
     <item name="android:isLightTheme">true</item>
     <item name="colorKeyboard">#e3e3e3</item>

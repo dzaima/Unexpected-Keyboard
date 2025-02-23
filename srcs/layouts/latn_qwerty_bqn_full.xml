@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<keyboard name="QWERTY full (BQN)" script="latin" embedded_number_row="true">
+  <row height="0.75">
+    <key c="`" s="~"            nw="˜" ne="¬" width="0.75"/>
+    <key c="1" s="!"            nw="˘" ne="⎉"/>
+    <key c="2" s="@"            nw="¨" ne="⚇"/>
+    <key c="3" s="#"            nw="⁼" ne="⍟"/>
+    <key c="4" s="$"            nw="⌜" ne="◶"/>
+    <key c="5" s="%"            nw="´" ne="⊘"/>
+    <key c="6" s="^"            nw="˝" ne="⎊"/>
+    <key c="7" s="&amp;"                     />
+    <key c="8" s="*"            nw="∞"       />
+    <key c="9" sw="(" se=")"    nw="¯" ne="•"/>
+    <key c="0"                  nw="⟨" ne="⟩"/>
+    <key c="-" s="_" n="f11_placeholder" nw="÷" ne="√"/>
+    <key c="=" s="+" n="f12_placeholder" nw="×" ne="⋆"/>
+    <key width="1.5" c="|" sw="\\"/>
+  </row>
+  <row>
+    <key c="esc" width="0.75"/>
+    <key c="q"              nw="⌽"/>
+    <key c="w"              nw="𝕨"/>
+    <key c="e" se="loc €"   nw="∊" ne="⍷"/>
+    <key c="r"              nw="𝕣"/>
+    <key c="t"              nw="∧" ne="⍋"/>
+    <key c="y"              nw="¬" ne="⋆"/>
+    <key c="u"              nw="⊔"/>
+    <key c="i"              nw="⊏" ne="⊑"/>
+    <key c="o"              nw="⊐" ne="⊒"/>
+    <key c="p"              nw="π" ne="⍳"/>
+    <key c="[" sw="{"       nw="←" ne="⊣"/>
+    <key c="]" sw="}"       nw="→" ne="⊢"/>
+    <key width="1.5" c="backspace" e="delete"/>
+  </row>
+  <row>
+    <key c="tab"/>
+    <key c="a"                       nw="⍉"       />
+    <key c="s" se="loc §" sw="loc ß" nw="𝕤"       />
+    <key c="d"                       nw="↕&#xFE0E;:↕"/>
+    <key c="f"                       nw="𝕗"       />
+    <key c="g"                       nw="𝕘"       />
+    <key c="h"                       nw="⊸" ne="«"/>
+    <key c="j"                       nw="∘"       />
+    <key c="k"                       nw="○" ne="⌾"/>
+    <key c="l"                       nw="⟜" ne="»"/>
+    <key c=";" sw=":"                nw="⋄" ne="·"/>
+    <key c="'" sw="&quot;"           nw="↩&#xFE0E;:↩" ne="˙" width="1.416666666666666"/> <!-- 0.5 + (3-0.25)÷3 -->
+    <key c="up" width="0.9166666666666666"/> <!-- (3-0.25)÷3 -->
+    <key w="home" e="end" n="page_up" s="page_down" width="0.9166666666666666"/>
+  </row>
+  <row>
+    <key width="1.5" c="shift" ne="loc capslock"/>
+    <key c="z"            nw="⥊" ne="⋈"/>
+    <key c="x"            nw="𝕩"       />
+    <key c="c"            nw="↓"       />
+    <key c="v"            nw="∨" ne="⍒"/>
+    <key c="b"             s="⌊"  n="⌈"/>
+    <key c="n"                         />
+    <key c="m"            nw="≡" ne="≢"/>
+    <key c="," sw="&lt;"  nw="∾" ne="≤"/>
+    <key c="." sw="&gt;"  nw="≍" ne="≥"/>
+    <key c="/" sw="?"     nw="≠" ne="⇐"/>
+    <key c="left" width="0.9166666666666666"/> <!-- (3-0.25)÷3 -->
+    <key c="down" width="0.9166666666666666"/>
+    <key c="right" width="0.9166666666666666"/>
+  </row>
+</keyboard>

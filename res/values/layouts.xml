@@ -44,6 +44,7 @@
     <item>latn_qwerty_apl</item>
     <item>latn_qwerty_az</item>
     <item>latn_qwerty_bqn</item>
+    <item>latn_qwerty_bqn_full</item>
     <item>latn_qwerty_br</item>
     <item>latn_qwerty_cy</item>
     <item>latn_qwerty_cz</item>
@@ -128,6 +129,7 @@
     <item>QWERTY (APL)</item>
     <item>QWERTY (Azərbaycanca)</item>
     <item>QWERTY (BQN)</item>
+    <item>QWERTY full (BQN)</item>
     <item>QWERTY (Brasileiro)</item>
     <item>QWERTY (Welsh)</item>
     <item>QWERTY (Czech)</item>
@@ -212,6 +214,7 @@
     <item>@xml/latn_qwerty_apl</item>
     <item>@xml/latn_qwerty_az</item>
     <item>@xml/latn_qwerty_bqn</item>
+    <item>@xml/latn_qwerty_bqn_full</item>
     <item>@xml/latn_qwerty_br</item>
     <item>@xml/latn_qwerty_cy</item>
     <item>@xml/latn_qwerty_cz</item>

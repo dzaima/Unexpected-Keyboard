@@ -31,7 +31,7 @@
     <key c="f" nw="𝕗"        se="≍"/>
     <key c="g" nw="𝕘"                         s="_"/>
     <key c="h" nw="⊸" ne="«"/>
-    <key c="j" nw="∘"  w="⊣" e="⊢"/>
+    <key c="j" nw="∘"  w="⊣" e="⊢" n="cursor_up" s="cursor_down"/>
     <key c="k" nw="○" ne="⌾"/>
     <key c="l" nw="⟜" ne="»"/>
     <key c=";"  w="·"  n="⋄"                  s=","/>

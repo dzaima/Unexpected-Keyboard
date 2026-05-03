@@ -653,6 +653,7 @@ public final class Pointers implements Handler.Callback
         float range = (speed - 1) / (VIBRATION_MAX_SPEED - 1);
         range = Math.min(Math.max(0, 1 - range), 1);
         float vibrate_strength = VIBRATION_MIN_STRENGTH + range / (1 - VIBRATION_MIN_STRENGTH);
+        android.util.Log.d("dzaima_log_thing", "vibrate: "+vibrate_strength+" from speed "+speed);
         
         _handler.onPointerHold(KeyValue.sliderKey(slider, d_),
             ptr.modifiers, vibrate_strength);
@@ -679,6 +680,7 @@ public final class Pointers implements Handler.Callback
       
       float speed0 = speed;
       speed = speed + (instant_speed - speed) * (1 - (float)Math.pow(SPEED_SMOOTHING, delta_ms));
+      android.util.Log.d("dzaima_log_thing", "dt="+(float)(now - last_move_ms)+"; tr:"+travelled+"; speed: "+speed0+" → "+speed+" →→ "+instant_speed);
       last_move_ms = now;
       last_x = x;
       last_y = y;
